@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE GRID — F1 Drivers</title>
+<meta name="description" content="An editorial exploration of the 2026 Formula 1 grid.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=4.2">
+</head>
+<body>
+<div class="noise"></div>
+<header class="topbar">
+  <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="wordmark">THE GRID<span> / 26</span></div>
+  <div class="top-meta">FORMULA 1 · DRIVERS</div>
+</header>
+
+<nav class="top-menu" id="topMenu" aria-hidden="true">
+  <div class="menu-inner">
+    <div class="menu-kicker">EXPLORE</div>
+    <div class="menu-group-label">THE GRID</div>
+    <button class="menu-link" data-route="home">Home <span>01</span></button>
+    <button class="menu-link" data-route="teams">Teams <span>02</span></button>
+    <button class="menu-link" data-route="drivers">Drivers <span>03</span></button>
+    <div class="menu-group-label archive-label">THE ARCHIVE</div>
+    <button class="menu-link" data-route="legends">Legends / Icons <span>04</span></button>
+    <button class="menu-link" data-route="rivalries">Rivalries <span>05</span></button>
+    <button class="menu-link" data-route="cars">Iconic Cars <span>06</span></button>
+    <button class="menu-link" data-route="eras">Eras <span>07</span></button>
+    <button class="menu-link" data-route="races">Greatest Races <span>08</span></button>
+    <button class="menu-link" data-route="champions">Champions <span>09</span></button>
+    <button class="menu-link" data-route="historic-teams">Historic Teams <span>10</span></button>
+    <button class="menu-link" data-route="records">Records <span>11</span></button>
+    <button class="menu-link" data-route="moments">Iconic Moments <span>12</span></button>
+    <div class="menu-footer"><span>2026 SEASON · F1 ARCHIVE</span><span>THE GRID / 26</span></div>
+  </div>
+</nav>
+
+<div class="intro-sequence" id="introSequence" aria-hidden="true">
+  <div class="intro-inner">
+    <div class="intro-title">THE GRID</div>
+    <div class="intro-rule"></div>
+    <div class="intro-sub">FORMULA 1 · 1950—2026</div>
+  </div>
+</div>
+<main id="app"></main>
+
+<div class="transition" id="transition"></div>
+<div class="toast" id="toast"></div>
+<script src="app.js?v=4.2"></script>
+</body>
+</html>
